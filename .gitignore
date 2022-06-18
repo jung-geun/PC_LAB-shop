@@ -1,0 +1,7 @@
+
+.settings/*
+.settings/.*
+.vscode/sftp.json
+src/main/webapp/deletemember.jsp
+src/main/webapp/delpro.jsp
+src/main/webapp/META-INF/MANIFEST.MF
