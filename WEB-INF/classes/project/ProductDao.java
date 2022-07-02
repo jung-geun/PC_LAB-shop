@@ -26,7 +26,7 @@ public class ProductDao {
 	private Connection getConnection() throws Exception {
 		Context initCtx = new InitialContext();
 		Context envCtx = (Context) initCtx.lookup("java:comp/env");
-		DataSource ds = (DataSource) envCtx.lookup("jdbc/hoseo_jsp");
+		DataSource ds = (DataSource) envCtx.lookup("jdbc/pc_lab");
 		return ds.getConnection();
 	}
 
